@@ -28,7 +28,7 @@
                 <br>Dinstajte povrće desetak minuta, dolijte povrtni temeljac (ako nemate povrtnu kocku za kuhanje, pomiješajte žlicu Vegete s vrelom vodom i dodajte povrću) te dodajte krumpir narezan na kockice.
                 <br> Kuhajte 30-ak minuta na laganoj vatri, popaprite, posolite, dodajte malo čilija u prahu, vlasca, origana ili bilo koji začin koji vam padne na pamet koji bi istaknuo slatkoću ove juhe.
                 <br> Uklonite lonac s vatre i štapnim mikserom usitnite povrće u gustu, kremastu juhu. Dodajte malo vrhnja za kuhanje i vratite na štednjak par minuta.
-                <br> Peršin sitno nasjeckajte i poslužite u tanjur nakon serviranja juhe."
+                <br> Peršin sitno nasjeckajte i poslužite u tanjur nakon serviranja juhe.
             </td>
         </tr>
         <tr>
@@ -52,7 +52,8 @@
     <form name="obrazac1" method="post" autocomplete="off" action="link1.html">
     <label for="ime">PRIJAVA</label>
     <br>
-    <input id="ime" type="text" size="20" placeholder="Unesi ime" required>
+    <label for="pass">Ime i prezime</label>
+    <input id="ime" type="text" size="20" required>
     <br>
     <label for="pass">Lozinka</label>
     <input type="password" name="password" id="pass" size="20" required>
@@ -76,13 +77,16 @@
     <input type="reset" value="Poništi">
 </form>
 <h2>POGLEDAJTE VIDEOZAPIS</h2>
-<video src="Slike/puppy.mp4" controls width="370" height="240">
+<video controls width="340" height="200">
+    <source src="slike/puppy.mp4" type="video/mp4">
 </video>
 <br>
 <hr>
 <br>
 <p></p>
 <h2>POSLUŠAJTE AUDIOZAPIS</h2>
-<audio src="zvuk_video/test-audio.ogg" controls=""></audio>
+<audio controls>
+    <source src="slike/test-audio.ogg" type="audio/mp3">
+</audio>
 </body>
 </html>
