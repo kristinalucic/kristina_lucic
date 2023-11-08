@@ -3,9 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zadaća 2</title>
+    <meta name="Opis" content="Izrada juhe od bundeve"> 
+    <meta name="autor" content="Kristina Lučić">
+    <title>Kremasta juha od butternut tikve</title>
 </head>
 <body>
-    <h1>Zadaća 2</h1>
+    <h3>Kremasta juha od butternut tikve</h3>
+    <table border="1">
+    <caption>Sastojci i priprema ukusne kremaste juhe od butternut tikve</caption>
+    <tbody>
+        <tr>
+            <th colspan="2">Sastojci</th>
+        </tr>
+        <tr>
+            <th>Povrće</th>
+            <th>Ostalo</th>
+            <th>Priprema</th>
+        </tr>
+        <tr>
+            <td>2 butternut tikve</td>
+            <td>0,7 l povrtnog temeljca</td>
+            <td rowspan="5">
+                Luk narežite na kockice i dinstajte na maslinovom ulju s češnjakom dok ne postane staklast. Tikvu uzdužno prerežite na pola, žlicom uklonite sjemenke (možete ih drugom prilikom ispeći), a velikim kuhinjskim nožem uklonite koru. Meso tikve narežite na kocke velike otprilike dva centimetra i dodajte luku.
+                <br>Dinstajte povrće desetak minuta, dolijte povrtni temeljac (ako nemate povrtnu kocku za kuhanje, pomiješajte žlicu Vegete s vrelom vodom i dodajte povrću) te dodajte krumpir narezan na kockice.
+                <br> Kuhajte 30-ak minuta na laganoj vatri, popaprite, posolite, dodajte malo čilija u prahu, vlasca, origana ili bilo koji začin koji vam padne na pamet koji bi istaknuo slatkoću ove juhe.
+                <br> Uklonite lonac s vatre i štapnim mikserom usitnite povrće u gustu, kremastu juhu. Dodajte malo vrhnja za kuhanje i vratite na štednjak par minuta.
+                <br> Peršin sitno nasjeckajte i poslužite u tanjur nakon serviranja juhe."
+            </td>
+        </tr>
+        <tr>
+            <td>2 krumpira srednje veličine</td>
+            <td>vrhnje za kuhanje</td>
+        </tr>
+        <tr>
+            <td>1 glavica luka</td>
+            <td>začini po izboru</td>
+        </tr>
+        <tr>
+            <td>režanj češnjaka</td>
+        </tr>
+        <tr>
+            <td>peršin</td>
+        </tr>
+    </tbody>
+    </table>
+    <p>Ukoliko ti se svidjela ova kremasta juha od butternut tikve slobodno ostavi komentar.</p>
+    <br>
+    <form name="obrazac1" method="post" autocomplete="off" action="link1.html">
+    <label for="ime">PRIJAVA</label>
+    <br>
+    <input id="ime" type="text" size="20" placeholder="Unesi ime" required>
+    <br>
+    <label for="pass">Lozinka</label>
+    <input type="password" name="password" id="pass" size="20" required>
+    <br>
+    <br>
+    <hr>Odaberi način na koji se prijavljuješ. 
+    <br>
+    <input type="radio" name="prijava" id="admin" value="admin"
+    <label for="admin">Admin</label>
+    <br>
+    <input type="radio" name="prijava" id="guest" value="guest">
+    <label for="guest">Guest</label>
+    <br>
+    <hr>
+    <p>Prihvaćate li uvjete korištenja?</p>
+    <input type="checkbox" name="language" id="da">
+    <label for="da">PRIHVAĆAM</label>
+    <br>
+    <br>
+    <input type="submit" value="Pošalji">
+    <input type="reset" value="Poništi">
+</form>
+<h2>POGLEDAJTE VIDEOZAPIS</h2>
+<video src="Slike/puppy.mp4" controls width="370" height="240">
+</video>
+<br>
+<hr>
+<br>
+<p></p>
+<h2>POSLUŠAJTE AUDIOZAPIS</h2>
+<audio src="zvuk_video/test-audio.ogg" controls=""></audio>
 </body>
 </html>
